@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF06213A22E02AEC000625E7 /* SignalStatisticsLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF06213922E02AEC000625E7 /* SignalStatisticsLib.h */; };
+		DF06213C22E02AEC000625E7 /* SignalStatisticsLib.m in Sources */ = {isa = PBXBuildFile; fileRef = DF06213B22E02AEC000625E7 /* SignalStatisticsLib.m */; };
+		DF06214A22E02C1B000625E7 /* SignalStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF06214822E02C1B000625E7 /* SignalStatistics.cpp */; };
+		DF06214B22E02C1B000625E7 /* SignalStatistics.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DF06214922E02C1B000625E7 /* SignalStatistics.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF06213622E02AEC000625E7 /* libSignalStatisticsLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSignalStatisticsLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF06213922E02AEC000625E7 /* SignalStatisticsLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalStatisticsLib.h; sourceTree = "<group>"; };
+		DF06213B22E02AEC000625E7 /* SignalStatisticsLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalStatisticsLib.m; sourceTree = "<group>"; };
+		DF06214822E02C1B000625E7 /* SignalStatistics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SignalStatistics.cpp; sourceTree = "<group>"; };
+		DF06214922E02C1B000625E7 /* SignalStatistics.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SignalStatistics.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF06213322E02AEC000625E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF06212D22E02AEC000625E7 = {
+			isa = PBXGroup;
+			children = (
+				DF06213822E02AEC000625E7 /* SignalStatisticsLib */,
+				DF06213722E02AEC000625E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF06213722E02AEC000625E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF06213622E02AEC000625E7 /* libSignalStatisticsLib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF06213822E02AEC000625E7 /* SignalStatisticsLib */ = {
+			isa = PBXGroup;
+			children = (
+				DF06213922E02AEC000625E7 /* SignalStatisticsLib.h */,
+				DF06213B22E02AEC000625E7 /* SignalStatisticsLib.m */,
+				DF06214822E02C1B000625E7 /* SignalStatistics.cpp */,
+				DF06214922E02C1B000625E7 /* SignalStatistics.hpp */,
+			);
+			path = SignalStatisticsLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF06213422E02AEC000625E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF06213A22E02AEC000625E7 /* SignalStatisticsLib.h in Headers */,
+				DF06214B22E02C1B000625E7 /* SignalStatistics.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF06213522E02AEC000625E7 /* SignalStatisticsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF06213F22E02AEC000625E7 /* Build configuration list for PBXNativeTarget "SignalStatisticsLib" */;
+			buildPhases = (
+				DF06213222E02AEC000625E7 /* Sources */,
+				DF06213322E02AEC000625E7 /* Frameworks */,
+				DF06213422E02AEC000625E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalStatisticsLib;
+			productName = SignalStatisticsLib;
+			productReference = DF06213622E02AEC000625E7 /* libSignalStatisticsLib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF06212E22E02AEC000625E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Derrick Reyes";
+				TargetAttributes = {
+					DF06213522E02AEC000625E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF06213122E02AEC000625E7 /* Build configuration list for PBXProject "SignalStatisticsLib" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF06212D22E02AEC000625E7;
+			productRefGroup = DF06213722E02AEC000625E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF06213522E02AEC000625E7 /* SignalStatisticsLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF06213222E02AEC000625E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF06214A22E02C1B000625E7 /* SignalStatistics.cpp in Sources */,
+				DF06213C22E02AEC000625E7 /* SignalStatisticsLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF06213D22E02AEC000625E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF06213E22E02AEC000625E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF06214022E02AEC000625E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LFRTH2L5UZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF06214122E02AEC000625E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LFRTH2L5UZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF06213122E02AEC000625E7 /* Build configuration list for PBXProject "SignalStatisticsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF06213D22E02AEC000625E7 /* Debug */,
+				DF06213E22E02AEC000625E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF06213F22E02AEC000625E7 /* Build configuration list for PBXNativeTarget "SignalStatisticsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF06214022E02AEC000625E7 /* Debug */,
+				DF06214122E02AEC000625E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF06212E22E02AEC000625E7 /* Project object */;
+}
