@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2D1C472352433100D3A04B /* waveforms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF2D1C462352433100D3A04B /* waveforms.cpp */; };
 		DFA228AF234A61460038EDA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA228AE234A61460038EDA4 /* main.cpp */; };
 		DFA228B7234A61A90038EDA4 /* convolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA228B5234A61A90038EDA4 /* convolution.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF2D1C462352433100D3A04B /* waveforms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = waveforms.cpp; path = ../../Convolution/Convolution/waveforms.cpp; sourceTree = "<group>"; };
 		DFA228AB234A61460038EDA4 /* RobustConvolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RobustConvolution; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA228AE234A61460038EDA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DFA228B5234A61A90038EDA4 /* convolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = convolution.cpp; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		DFA228AD234A61460038EDA4 /* RobustConvolution */ = {
 			isa = PBXGroup;
 			children = (
+				DF2D1C462352433100D3A04B /* waveforms.cpp */,
 				DFA228AE234A61460038EDA4 /* main.cpp */,
 				DFA228B5234A61A90038EDA4 /* convolution.cpp */,
 				DFA228B6234A61A90038EDA4 /* convolution.hpp */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA228B7234A61A90038EDA4 /* convolution.cpp in Sources */,
+				DF2D1C472352433100D3A04B /* waveforms.cpp in Sources */,
 				DFA228AF234A61460038EDA4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

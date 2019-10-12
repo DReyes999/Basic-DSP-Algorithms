@@ -10,5 +10,8 @@
 #define convolution_hpp
 
 #include <stdio.h>
+#include <stdint.h>
+
+void Conv(double * pSrcA,u_int32_t srcALen,double * pSrcB,u_int32_t srcBLen,double * pDst);
 
 #endif /* convolution_hpp */
